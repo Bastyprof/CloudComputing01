@@ -1,0 +1,28 @@
+    1  git init
+    2  mkdir mi_pre_prueba
+    3  cd mi_pre_prueba
+    4  echo "Sebastian Hood Maldonado" > info.txt
+    5  cp info.txt copia_info.txt
+    6  cat info.txt copia_info.txt
+    7  rm copia_info.txt
+    8  ls -l info.txt
+    9  chmod 600 info.txt
+   10  echo "Archivo oculto de Sebastian" > .sebastian_hood_maldonado
+   11  ls -la | grep ".sebastian"
+   12  find . -name "*.txt"
+   13  grep "Sebastian Hood Maldonado" info.txt
+   14  echo "Hola" > a.txt
+   15  echo "Mundo" > b.txt
+   16  cat a.txt b.txt > saludo.txt
+   17  tar -czvf archivos.tar.gz *.txt
+   18  mkdir extraidos
+   19  tar -xzvf archivos.tar.gz -C extraidos
+   20  cd extraidos/
+   21  ls
+   22  cd ..
+   23  echo "Juan,23" >> nombres.csv
+   24  echo "Ana,19" >> nombres.csv
+   25  echo "Pedro,31" >> nombres.csv
+   26  awk -F, '{print $1}' nombres.csv
+   27  python3 edad.py
+   28  history > historial.txt
