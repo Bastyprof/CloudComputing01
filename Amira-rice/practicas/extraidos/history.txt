@@ -1,0 +1,127 @@
+    1  sudo apt-get update
+    2  sudo apt-get install git
+    3  passwd
+    4  sudo apt-get update
+    5  sudo apt-get install git
+    6  git --version
+    7  git config --global user.name 'Amirosaa'
+    8  git config --global user.email 'amiraa@live.cl'
+    9  git config --list
+   10  git init
+   11  git remote add origin https://github.com/Amirosaa/NewFile.git
+   12  git status
+   13  git add.
+   14  git add .
+   15  git commit -m ]'Primer commit'
+   16  git push origin main
+   17  git push origin master
+   18  mkdir Kitty 
+   19  ls
+   20  cd kitty
+   21  cd Kitty/
+   22  echo 
+   23  echo 'Hola mundo' > saludo.txt
+   24  ls
+   25  git add .
+   26  git push origin master
+   27  sudo apt-get update
+   28  sudo apt/get install
+   29  sudo apt-get install
+   30  sudo apt-get install git
+   31  git config --global user.name Amirosaa
+   32  git config --global user.email amiraa@live.cl
+   33  git config --list
+   34  git init 
+   35  git remote add origin https://github.com/Amirosaa/Practicas-.git
+   36  git remote add origin https://github.com/Amirosaa/CloudComputing01.git
+   37  git clone https://github.com/Amirosaa/CloudComputing01.git
+   38  ls
+   39  cd CloudComputing01/
+   40  ls
+   41  cd Amira-rice/
+   42  ls
+   43  cd ..
+   44  git checkout main
+   45  git pull origin main
+   46  ls
+   47  cd Amira-rice/
+   48  ls
+   49  cd ..
+   50  git checkout -b Practice-branch-1
+   51  cd Amira-rice/
+   52  nano Edad.py
+   53  python3 Edad.py 
+   54  sudo apt update
+   55  sudo apt install python3.10
+   56  python3.10 Edad.py 
+   57  ls
+   58  nano Edad.py 
+   59  python3 Edad.py 
+   60  nano Edad.py 
+   61  python3 Edad.py 
+   62  nano Edad.py 
+   63  python3 Edad.py 
+   64  nano Edad.py 
+   65  python3 Edad.py 
+   66  nano Edad.py 
+   67  python3 Edad.py 
+   68  nano Edad.py 
+   69  python3 Edad.py 
+   70  ls
+   71  cat edad.txt 
+   72  nano Edad.py 
+   73  python3 Edad.py 
+   74  nano Edad.py 
+   75  python3 Edad.py 
+   76  nano Edad.py 
+   77  python3 Edad.py 
+   78  nano Edad.py 
+   79  python Edad.py 
+   80  python3 Edad.py 
+   81  ls
+   82  cat edad.txt 
+   83  mkdir practicas
+   84  ls
+   85  mv Edad.py practicas/
+   86  ls
+   87  mv edad.txt practicas/
+   88  ls
+   89  cd practicas/
+   90  echo 'Amira Rice' > info.txt
+   91  cp info.txt > copia_info.txt
+   92  cp info.txt copia_info.txt
+   93  cat info.txt copia_info.txt 
+   94  rm copia_info.txt 
+   95  ls
+   96  ls -l infot
+   97  ls -l info.txt 
+   98  chmod 700
+   99  chmod 700 info.txt 
+  100  ls -l info.txt 
+  101  chmod 600 info.txt 
+  102  ls -l info.txt 
+  103  echo 'Amira Rice' > .oculto.txt
+  104  ls
+  105  ls -a
+  106  find . -type f -name '*.txt'
+  107  grep 'Amira' info.txt 
+  108  echo 'Hola' > a.txt
+  109  echo 'Mundo' > b.txt
+  110  cat a.txt b.txt > saludo.txt
+  111  tar -czvf archivos.tar.gz *.txt
+  112  tar -xzvf archivos.tar.gz extraidos
+  113  mkdir extraidos
+  114  cd extraidos/
+  115  tar -xzvf archivos.tar.gz
+  116  cd ..
+  117  mv archivos.tar.gz extraidos/
+  118  cd extraidos/
+  119  tar -xzvf archivos.tar.gz 
+  120  nano nombres.csv
+  121  awk -F',' {print$1} nombres.csv 
+  122  awk -F',' '{print$1}' nombres.csv 
+  123  awk -F',' '{print$2}' nombres.csv 
+  124  git status
+  125  git add .
+  126  git commit -m 'AAAA'
+  127  history > history.txt
