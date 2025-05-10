@@ -1,0 +1,73 @@
+    1  sudo apt install git
+    2  ls
+    3  mkdir edixon_elias
+    4  cd edixon_elias/
+    5  git --global user.name
+    6  git config --global user.name
+    7  git config --global user.name "EDi-Eli"
+    8  git config --global user.name "Edi-Eli"
+    9  git config --global user.email "edixonelias4@gmail.com"
+   10  git config --list
+   11  git clone https://github.com/Bastyprof/CloudComputing01.git
+   12  ls
+   13  cd CloudComputing01/
+   14  ls
+   15  cd edixon_elias/
+   16  ls
+   17  mkdir examen_final
+   18  cd examen_final/
+   19  nano datos.txt
+   20  cp datos.txt respaldo_datos.txt
+   21  ls
+   22  cat datos.txt respaldo_datos.txt 
+   23  rm respaldo_datos.txt 
+   24  ls
+   25  ls -a datos.txt 
+   26  ls -a
+   27  ls -l datos.txt 
+   28  chmod 600 datos.txt 
+   29  ls -l datos.txt 
+   30  touch .registro
+   31  ls
+   32  ls -a
+   33  find -name "*.log"
+   34  grep "elias" datos.txt 
+   35  nano entrada.txt
+   36  nano final.txt
+   37  cat entrada.txt final.txt > completo.txt
+   38  ls
+   39  mkdir descomprimido
+   40  tar -czvf comprimido.tar.gz "*.txt"
+   41  ls
+   42  tar -xzvf comprimido.tar.gz descomprimido/
+   43  ls
+   44  mv comprimido.tar.gz descomprimido/
+   45  ls
+   46  cd descomprimido/
+   47  tar -xzvf comprimido.tar.gz 
+   48  ls
+   49  tar -xzvf comprimido.tar.gz 
+   50  ls
+   51  nano comprimido.tar.gz 
+   52  cd .
+   53  cd ..
+   54  ls 
+   55  tar -c archivo_comprimido.tar completo.txt datos.txt entrada.txt final.txt 
+   56  tar -cf archivo_comprimido.tar completo.txt datos.txt entrada.txt final.txt 
+   57  ls
+   58  mv archivo_comprimido.tar descomprimido/
+   59  cd descomprimido/
+   60  ls
+   61  tar -xf archivo_comprimido.tar 
+   62  ls
+   63  cd ..
+   64  nano usuarios.csv
+   65  awk -F',' '$2 > 21 { print $0 }' usuarios.csv 
+   66  nano vida.py
+   67  python3 vida.py 
+   68  nano vida.py
+   69  python3 vida.py 
+   70  ls
+   71  cat dias.txt 
+   72  history 
+   73  history > historial.txt
